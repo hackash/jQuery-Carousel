@@ -146,6 +146,12 @@ $(document).ready(function(e) {
 			}
 		}
 	);//end of event
+
+
+	/*======================plugin function to the jQuery prototype using $.fn===========================================*/
+	$.fn.ccCarousel = function() {
+
+	}
 	
 
 });//end of dom load
