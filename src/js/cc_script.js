@@ -135,6 +135,7 @@
 	                }
 	            }
 	        );//end of event
+	    return $(this);
 	};
 
     $.fn.ccCarousel.defaults = {
