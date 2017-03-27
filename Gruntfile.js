@@ -36,4 +36,11 @@ module.exports = function (grunt) {
         'copy:dist',
         'uglify'
     ]);
+
+    grunt.registerTask('testcoverage', [
+        'coverageInstrument',
+        'connect:testcoverage',
+        'qunit:all',
+        'coverageReport'
+    ]);
 };

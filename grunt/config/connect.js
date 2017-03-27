@@ -5,6 +5,8 @@
  */
 
 // The actual grunt server settings
+var serveStatic = require('serve-static');
+
 module.exports = {
   options: {
     port: 9000,
@@ -26,5 +28,18 @@ module.exports = {
         '<%= project.app %>'
       ]
     }
+  },
+  testcoverage: {
+     options: {
+       port: 9002,
+       hostname: '127.0.0.1',
+       middleware: function (connect) {
+            return [
+               serveStatic('<%= project.temp %>'),
+               serveStatic('<%= project.app %>/js'),
+               serveStatic('<%= project.test %>')
+           ]
+        }
+     }
   }
 };

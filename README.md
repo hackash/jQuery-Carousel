@@ -1,6 +1,8 @@
 jQuery Carousel
 ======
 
+[![Build Status](https://travis-ci.org/albert-cyberhulk/jQuery-Carousel.svg?branch=master)](https://travis-ci.org/albert-cyberhulk/jQuery-Carousel)
+
 simple Carousel with jQuery
 
 ### Demo & Example
@@ -27,11 +29,11 @@ bower install jquery-cccarousel --save
 
 add it to your HTML file
 ````bash
-<script src="bower_components/jquery-carousel/dist/jquery-carousel.min.js"></script>
+<script src="bower_components/jquery-cccarousel/dist/cc_script.min.js"></script>
 ````
 or
 ````bash
-<script src="node_modules/jquery-carousel/dist/jquery-carousel.min.js"></script>
+<script src="node_modules/jquery-cccarousel/dist/cc_script.min.js"></script>
 ````
 
 #### Install jQuery Carousel

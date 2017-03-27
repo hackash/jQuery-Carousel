@@ -54,11 +54,14 @@
     "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-jshint": "^1.1.0",
-    "grunt-contrib-qunit": "^1.3.0",
     "grunt-contrib-uglify": "^2.2.0",
     "grunt-contrib-watch": "^1.0.0",
+    "grunt-croc-qunit": "^1.0.0",
+    "istanbul": "^0.4.5",
     "jshint-stylish": "^2.2.1",
     "load-grunt-configs": "^1.0.0",
-    "load-grunt-tasks": "^3.5.2"
+    "load-grunt-tasks": "^3.5.2",
+    "phantomjs": "~1.9.1-9",
+    "serve-static": "^1.12.1"
   }
 }
