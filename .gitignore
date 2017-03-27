@@ -12,4 +12,4 @@ node_modules
 # temp file storage
 .tmp
 
-dist
+!example/bower_components
